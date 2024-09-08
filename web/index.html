@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Lesa Accesorios</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulario de Registro de Accesorios</h1>
+        <form action="Mostrardatos" method="post">
+            <label>Nombre de articulo:</label>
+            <input type="text" name="nombre"><br><br>
+            
+                    
+            <label>Articulo para:</label>
+            <input type="radio" name="genero" value="H">Hombre
+            <input type="radio" name="genero" value="M">Mujer<br><br>
+            
+            <!-- Nuevos Campos para Artículo, Pedido, Cantidad y Precio -->
+            <label>Código de Artículo:</label>
+            <input type="number" name="cod_articulo"><br><br>
+
+            <label>ID de Pedido:</label>
+            <input type="number" name="id_pedido"><br><br>
+
+            <label>Cantidad:</label>
+            <input type="number" name="cantidad"><br><br>
+
+            <label>Precio x unidad:</label>
+            <input type="text" name="precio"><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

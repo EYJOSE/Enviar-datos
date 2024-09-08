@@ -1,0 +1,18 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+/* Estilo para el botón de envío cuando el cursor está sobre él */
+form input[type="submit"]:hover {
+  cursor: pointer; /* Cambia el cursor a mano al pasar el ratón */
+}
+
+textarea {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  height: 100px; /* Altura del área de texto */
+  border: 1px solid #f6f6f6; /* Borde sólido de 1px, color gris claro */
+  border-radius: 3px; /* Bordes redondeados */
+  background-color: #f6f6f6; /* Color de fondo gris claro */
+  margin: 8px 0; /* Margen de 8px arriba y abajo, 0 a los lados */
+  resize: none; /* Deshabilita la opción de redimensionar el textarea */
+  display: block; /* Muestra el textarea como un bloque */
+}
